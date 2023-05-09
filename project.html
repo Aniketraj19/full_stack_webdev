@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Slot Machine Game</title>
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        id="balance"
+        placeholder="Enter the Amount"
+        name="balance"
+        required
+      />
+      <br />
+      <label for="balance">The remaining balance is: </label>
+      <br />
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <input
+        class="inp"
+        type="text"
+        name="Lines"
+        id="lines"
+        placeholder="Number of lines"
+        required
+      />
+      <input
+        class="inp"
+        type="text"
+        name="Bet"
+        id="bet"
+        placeholder="Bet amount on each line:"
+        required
+      />
+      <br />
+      <button class="btn" id="spin" name="spin">Spin</button>
+      <button class="btn" id="reset" name="reset">Reset</button>
+    </div>
+  </body>
+</html>

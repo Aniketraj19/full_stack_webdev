@@ -1,0 +1,43 @@
+.container
+{
+    text-align: center;
+    background-color: #F99B7D;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #B04759;
+}
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: #E76161;
+    display: inline-block;
+}
+
+#balance
+{
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px 5px 10px 5px;
+    border-radius: 10px;
+    border-color: #B04759;
+}
+
+.inp
+{
+    display: inline-block;
+    width: 154px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #B04759;
+}
+
+.btn
+{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #B04759;
+}
